@@ -27,7 +27,7 @@ Note: this project _requires_ yarn.
 2. Rename `.env.development.tenplate` to `.env.development` and paste in the token: `SANITY_READ_TOKEN="yourTokenHere"`.
 3. Restart the development server (`ctrl + C` and `yarn dev`).
 
-If you want to turn off preview you can set `watchMode: false` in gatsby-config.js. If you just want to preview published changes you can set `overlayDrafts: false` in gatsby-config.js!
+If you want to turn off preview you can set `watchMode: false` in gatsby-config.js. If you just want to preview published changes you can set `overlayDrafts: false` in gatsby-config.js!!
 
 ## Deploy changes
 
