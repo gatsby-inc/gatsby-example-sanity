@@ -16,7 +16,7 @@ module.exports = {
         projectId: process.env.GATSBY_SANITY_PROJECT_ID || `925zuquf`,
         dataset: process.env.GATSBY_SANITY_DATASET || `production`,
         token: process.env.GATSBY_SANITY_READ_TOKEN,
-        watchMode: true,
+        watchMode: process.env.GATSBY_WATCH_MODE || process.env.RUNNER_TYPE === `PREVIEW`,
         overlayDrafts: true
       })
     }
